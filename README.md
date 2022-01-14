@@ -1,7 +1,7 @@
 # Return Ready Lab 11
 
-* Part A - Foundations 4.3
-* Part B - Foundations 4.5
+* Part A - Foundations 5.1
+* Part B - Foundations 5.2
 * Part C - Instructor Challenge
 
 ## Part A
@@ -10,83 +10,93 @@
 
 #### Step 01
 
-In the package `lab10.part_a.examples` look at the file `Example01_Indexing` and write comments for each line of code. When complete review with instructor.
+In the package `lab12.part_a.examples` look at the file `Example01_BooleanDemo` and write comments for each line of code. When complete review with instructor.
 
 #### Step 02
 
-In the package `labs.lab10.part_a.activity` complete the `Activity01_Indexing` per the following:
+In the package `labs.lab12.part_a.activity` complete the `Activity01_TempCheck` per the following:
 
-        Utilizing index on the pre-defined String, start at the first e and locate the index of the very next e.
+        Create a program that takes in an expected user input as an integer
+        The program should compare that input and based on the result of the comparison, print out a statement:
+        If input is less than or equal to 45 - "It's cold - putting on a coat!"
+        If input is greater than or equal to 46 and less than or equal to 65 - "It's not bad out - a hoodie will do just fine!"
+        Any other situation, - "It's hot - a T shirt will be perfect."
 
 Your program is working correctly, if when run, the following is the output (Abe first name Lincoln last name):
 ```
-10
+Enter a number from 0 to 100
+66
+It's hot - a T shirt will be perfect.
 ```
 
-> Use Example01_IndexOf for reference.
+> Use Example01_ for reference.
 
 ### Example and Activity 02
 
 #### Step 01
 
-In the package `lab11.part_a.examples` look at the file `Example02_Concatenate` and write comments for each line of code. When complete review with instructor.
+In the package `lab12.part_a.examples` look at the file `Example02_EqualityString` and write comments for each line of code. When complete review with instructor.
 
 #### Step 02
 
-In the package `labs.lab11.part_a.activity` complete the `Activity02_Concatenate` per the following:
+In the package `labs.lab12.part_a.activity` complete the `Activity02_EqualityOperator` per the following:
 
-    Create two different variables that hold text - a first name and a last name
-    Create a third variable that combines both of the variables
-    Print out the variable that contains the concatenation 
+    Create a program that compares two variables (4 and 5) and returns if they're equal to each other - true of false
 
 Your program is working correctly, if when run, the following is the output:
 ```
-Abe Lincoln
+Are 4 and 4 equal? true
+Are 4 and 5 equal? false
 ```
 
-> Use Example02_Concatenate for reference.
+> Use Example02_ for reference.
 
 
 ### Example and Activity 03
 
 #### Step 01
 
-In the package `lab11.part_a.examples` look at the file `Example03_Replace` and write comments for each line of code. When complete review with instructor.
+In the package `lab12.part_a.examples` look at the file `Example03_EqualityTest` and write comments for each line of code. When complete review with instructor.
 
 #### Step 02
 
-In the package `labs.lab11.part_a.activity` complete the `Activity03_Replace` per the following:
+In the package `labs.lab12.part_a.activity` complete the `Activity03_IfElseNameCheck` per the following:
 
-    Utilizing the built in replace method, create a new String that holds an updated version of the sentence
-    with every lowercase r transformed into uppercase. Print out this new string.
+    Create a program that asks the user for their first name and stores it
+    Check the name the user input against Elvis - if it Elvis, print out "You are the king of rock and roll"
+    After checking the name, if the user's name is anything aside from Elvis - "You are not the king"
 
 Your program is working correctly, if when run, the following is the output:
 ```
-Using StRing Replace to Replace chaRacteR
+Enter your name:
+Elvis
+You are the king of rock and roll
 ```
 
-> Use Example03_Replace for reference.
+> Use Example03 for reference.
 
 ### Example and Activity 04
 
 #### Step 01
 
-In the package `lab11.part_a.examples` look at the file `Example04_Extraction` and write comments for each line of code. When complete review with instructor.
+In the package `lab12.part_a.examples` look at the file `Example04_IfDemo` and write comments for each line of code. When complete review with instructor.
 
 #### Step 02
 
-In the package `labs.lab11.part_a.activity` complete the `Activity04_Extraction` per the following:
+In the package `labs.lab12.part_a.activity` complete the `Activity04_IfElseDemo` per the following:
 
-    Utilizing the built in substring method on the predefined String, print out the results to satisfy the example below
+    Create a program that takes a user input as a number
+    Check the number, if it is equal to 7, the program should print to the user "That's lucky!"
+    If after checking the number and it is not equal to 7, print to the user "That's unlucky!"
 
 Your program is working correctly, if when run, the following is the output:
 ```
-Learn
-g Ja
-g Java is a good time!
+Enter a number:
+5
+That's unlucky!
 ```
 
-> Use Example04_Extraction for reference.
+> Use Example04_ for reference.
 
 ## Part B
 
@@ -94,63 +104,57 @@ g Java is a good time!
 
 #### Step 01
 
-In the package `lab11.part_b.examples` look at the file `Example01_MathSquareRoot` and write comments for each line of code. When complete review with instructor.
+In the package `lab12.part_b.examples` look at the file `Example01_ChainedIf` and write comments for each line of code. When complete review with instructor.
 
 #### Step 02
 
-In the package `labs.lab11.part_b.activity` complete the `Activity01_Radius` per the following:
+In the package `labs.lab12.part_b.activity` complete the `Activity01_CheckGrades` per the following:
 
-    Ask a user to enter the radius, save this input accordingly as the radius
-    Create a variable called area that calculates the area using the user's input for the radius (HINT: use a formula)
-    Print to the console "The area of circle is: " and the variable area
+    Create a program that receives various grades from the user including: Math, Science, Geography, English, and Java
+    Total the inputs and state what the total was in the five subjects
+    Print out the average and call it a percentage per the sample below
 
 Your program is working correctly, if when run, the following is the output:
 ```
-Enter the radius: 25
-The area of circle is: 1963.25
+What was your grade in Math?
+80
+What was your grade in Science?
+75
+What was your grade in Geography?
+80
+What was your grade in English?
+75
+What was your grade in Java?
+80
+Total grade in five subjects: 390.0
+My percentage: 78.0
 ```
 
-> Use Example01_MathSquareRoot for reference.
+> Use Example01_ for reference.
 
 ### Example and Activity 02
 
 #### Step 01
 
-In the package `lab11.part_b.examples` look at the file `Example02_Minimum` and write comments for each line of code. When complete review with instructor.
+In the package `lab12.part_b.examples` look at the file `Example02_` and write comments for each line of code. When complete review with instructor.
 
 #### Step 02
 
 In the package `labs.lab11.part_b.activity` complete the `Activity02_Maximum` per the following:
 
-    Utilize the built in math function to find the maximum between two numbers
-    Print out this result
+    Create a program that has two numerical variables - x and y
+    Assign a value of 20 to x
+    Perform a logical ternary check that will assign 90 to y after checking whether the value of x is equal to 1
+    Print out "value of y is: " + y
+    Perform a second logical ternary check that will assign 61 to y after checking whether the value of x is equal to 20
+    Print out "value of y is: " + y
 
 Your program is working correctly, if when run, the following is the output:
 ```
-Maximum number of 12 and 20 is: 20
+Value of y is: 90
+Value of y is: 61
 ```
 
-> Use Example02_Minimum for reference.
-
-### Example and Activity 03
-
-#### Step 01
-
-In the package `lab11.part_b.examples` look at the file `Example02_Minimum` and write comments for each line of code. When complete review with instructor.
-
-#### Step 02
-
-In the package `labs.lab11.part_b.activity` complete the `Activity03_AbsoluteValue` per the following:
-
-    Sum the pre defined variables inside of the class
-    Utilizing the built in absolute value method, print out the absolute value of the sum
-
-Your program is working correctly, if when run, the following is the output:
-```
-225
-```
-
-> Use Example02_Minimum for reference.
-
+> Use Example02 for reference.
 
 ## Part C
