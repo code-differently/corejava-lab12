@@ -147,7 +147,7 @@ In the package `lab12.part_b.examples` look at the file `Example02_` and write c
 
 #### Step 02
 
-In the package `labs.lab11.part_b.activity` complete the `Activity02_Maximum` per the following:
+In the package `labs.lab12.part_b.activity` complete the `Activity02_Maximum` per the following:
 
 * Create a program that has two numerical variables - x and y
 * Assign a value of 20 to x
@@ -214,50 +214,3 @@ Enter a color code:
 The entered wavelength is not a part of the visible spectrum.
 ```
 
-### Activity 02: Next Color for a Stop Light
-
-### Overview
-
-The normal behavior for a stop light is to cycle from Red to Green To Yellow to Red ( and continues with this pattern). Complete `StopLight` in the `labs.lab12.part_c.activity02` package, which will determine the next color of a stop light in this pattern, Red to Green to Yellow to Red based on the current stop light provided by the user.
-
-![](./assets/img01.png)
-
-### Task
-
-You must implement the following using a suitable `if` statement:
-
-* Have the user enter the value for the currentColor.
-* Compute the next color stop light based on the currentColor.
-* Alert the user for any invalid value of color.
-
-#### Expected Output 1
-
-```
-Enter a color code:
-1
-Next Traffic Light is green
-```
-
-#### Expected Output 2
-
-```
-Enter a color code:
-3
-Next Traffic Light is red.
-```
-
-#### Expected Output 3
-
-```
-Enter a color code:
-0
-Invalid color
-```
-
-#### Expected Output 4
-
-```
-Enter a color code:
-4
-Invalid color
-```
